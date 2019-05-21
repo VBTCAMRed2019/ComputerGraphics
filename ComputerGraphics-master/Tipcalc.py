@@ -73,7 +73,7 @@ def main():
             p = win.getMouse()
         except GraphicsError:
             win.close()
-        if (p.getX() >pt7.getX()) and (p.getY() < pt8.getY()):
+        if (p.getX() > pt7.getX()) and (p.getY() < pt8.getY()): ##
             percent = percentInput / 100
             total = percent * billInput
             newM = total
